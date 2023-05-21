@@ -3,4 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/07f83381db4330565b53/maintainability)](https://codeclimate.com/github/gremmes/frontend-project-44/maintainability)
 
-[![Asciinema]](https://asciinema.org/a/YCJ5fGM3sxMNTdVCzgxaWGhWy)
+[Asciinema](https://asciinema.org/a/YCJ5fGM3sxMNTdVCzgxaWGhWy)
