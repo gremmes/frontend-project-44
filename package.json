@@ -18,7 +18,7 @@
   "homepage": "https://github.com/gremmes/frontend-project-44#readme",
   "type": "module",
   "bin": {
-    "brain-games": "bin/games/brain-games.js",
+    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/games/brain-even.js",
     "brain-calc": "bin/games/brain-calc.js"
   },
