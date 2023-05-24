@@ -12,8 +12,6 @@ const isEven = (number) => {
   return 'no';
 };
 
-const getRandomNumber = () => Math.floor(Math.random() * (100 - 0));
-
 const evenGame = () => {
   let rightAnswers = 0;
   let wrongAnswers = 0;
@@ -23,7 +21,7 @@ const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   while (rightAnswers < 3 && wrongAnswers < 1) {
-    const randomNumber = getRandomNumber();
+    const randomNumber = Math.floor(Math.random() * (100 - 0));
     const result = isEven(randomNumber);
     const answer = isRight(randomNumber, result);
 
