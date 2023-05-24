@@ -11,3 +11,6 @@ Click the link [brain-calc](https://asciinema.org/a/hcjcDdggaayYqn4Ax4Cucq322)
 
 #### Watch the brain-gcd game video: <h4>
 Click the link [brain-gcd](https://asciinema.org/a/OkpksJubcSMjzEkFJIymdu4z4)
+
+#### Watch the brain-progression video: <h4>
+Click the link [brain-progression](https://asciinema.org/a/xwsQoEZn0nnJQq0gTKvStfvuc)
