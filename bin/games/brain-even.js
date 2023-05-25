@@ -8,12 +8,7 @@ import {
 } from '../../src/index.js';
 
 const isEven = (number) => {
-  if (number % 2 === 0) return true;
-  return false;
-};
-
-const expectedAnswer = (result) => {
-  if (result === true) return 'yes';
+  if (number % 2 === 0) return 'yes';
   return 'no';
 };
 
@@ -28,14 +23,13 @@ const evenGame = () => {
   while (rightAnswers < 3 && wrongAnswers < 1) {
     const randomNumber = Math.floor(Math.random() * (100 - 0));
     const result = isEven(randomNumber);
-    const rightAnswer = expectedAnswer(result);
-    const answer = isRight(randomNumber, rightAnswer);
+    const answer = isRight(randomNumber, result);
 
     if (answer) {
       setRightAnswer();
       rightAnswers += 1;
     } else {
-      setWrongAnswer(rightAnswer);
+      setWrongAnswer(result);
       wrongAnswers += 1;
     }
   }

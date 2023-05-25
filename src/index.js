@@ -20,7 +20,7 @@ export const isRight = (expression, correctAnswer) => {
 export const setRightAnswer = () => console.log('Correct!');
 
 export const setWrongAnswer = (result) => {
-  console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${result}.\nLet's try again, ${name}!`);
+  console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${name}!`);
 };
 
 export const setCongratulation = () => console.log(`Congratulations, ${name}!`);
