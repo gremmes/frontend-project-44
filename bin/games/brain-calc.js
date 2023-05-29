@@ -54,7 +54,7 @@ const calculatorGame = () => {
     const secondOperand = Math.floor(Math.random() * 25) + 1;
     const firstOperand = secondOperand * randomMultiplier;
     const result = operationResult(firstOperand, secondOperand).toString();
-    const answer = isRight(`${firstOperand}${symbol}${secondOperand}`, result);
+    const answer = isRight(`${firstOperand} ${symbol} ${secondOperand}`, result);
 
     if (answer) {
       setRightAnswer();
