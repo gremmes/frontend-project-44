@@ -31,7 +31,7 @@ const primeGame = () => {
 
   greeting();
 
-  console.log('Answer "yes" if the number is prime, otherwise answer "no".');
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
   while (rightAnswers < 3 && wrongAnswers < 1) {
     const randomNumber = Math.floor(Math.random() * (25 - 0));
