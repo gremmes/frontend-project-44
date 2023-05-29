@@ -25,14 +25,9 @@ const operationResult = (a, b) => {
       result = a - b;
       break;
 
-    case 3:
+    default:
       symbol = '*';
       result = a * b;
-      break;
-
-    default:
-      symbol = '/';
-      result = a / b;
       break;
   }
 
